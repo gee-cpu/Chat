@@ -1,9 +1,11 @@
 package com.gonchaba.chat.sevice;
 
 import com.gonchaba.chat.model.Message;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MessageServiceImpl implements MessageService {
     @Override
     public List<Message> getAllMessages() {
